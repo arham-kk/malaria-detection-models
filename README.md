@@ -1,16 +1,17 @@
-# Malaria-Detector-Using-ResNet50
-This repository contains code for a malaria detection system using a pre-trained ResNet50 model on TensorFlow. The model is trained to detect malaria parasites in cell images.
+# Malaria-Detection
+This repository contains code for a malaria detection system using a pre-trained VGG-16, VGG-19 & ResNet50 models on TensorFlow. The model is trained to detect malaria parasites in cell images.
 
 # Installation
 This code requires the following libraries:
 
 tensorflow
-
 google-colab
 
 To install the libraries, run the following command:
 
-!pip install tensorflow google-colab
+```bash
+pip install tensorflow google-colab
+```
 
 # Usage
 Clone the repository or download the code as a .py file.
