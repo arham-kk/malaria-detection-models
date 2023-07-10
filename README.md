@@ -1,33 +1,30 @@
-# Malaria-Detection
-This repository contains code for a malaria detection system using a pre-trained VGG-16, VGG-19 & ResNet50 models on TensorFlow. The model is trained to detect malaria parasites in cell images.
+# Malaria Detection Models
 
-# Installation
-This code requires the following libraries:
+This repository contains three Jupyter Notebook files (`ipynb`) for malaria detection models using VGG-16, VGG-19, and ResNet-50 architectures. These models are implemented using Google Colab.
 
-tensorflow
-google-colab
+## Models
 
-To install the libraries, run the following command:
+1. VGG-16
+2. VGG-19
+3. ResNet-50
 
-```bash
-pip install tensorflow google-colab
+## Usage
+
+To run these notebooks, follow the steps below:
+
+1. Clone this repository to your local machine using the following command:
 ```
+git clone https://github.com/arham-kk/malaria-detection-models.git
+```
+2. Open Google Colab (colab.research.google.com).
+3. Upload the desired `.ipynb` file(s) to your Google Colab workspace.
+4. Ensure that you have the necessary dataset for malaria detection.
+5. Modify the notebook code if necessary, such as updating file paths or adjusting hyperparameters.
+6. Execute the notebook cells sequentially to train the model and perform malaria detection.
+7. Analyze the results and evaluate the model's performance.
 
-# Usage
-Clone the repository or download the code as a .py file.
-
-Mount Google Drive using the command: drive.mount('/content/drive')
-
-Extract the dataset zip file using the code provided in the script.
-
-Run the script and the model will start training.
-
-After the training is complete, the model will be saved as model.h5.
-
-# Results
-After training the model for 10 epochs, the accuracy on the validation set was 0.9512 and the loss was 0.1306. The model was saved as model.h5.
+Ensure that these dependencies are installed in your Python environment before running the notebooks.
 
 # Acknowledgments
-The dataset used in this project was obtained from the [Malaria Cell Images Dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) on Kaggle.
-
-The ResNet50 model used in this project was pre-trained on the ImageNet dataset.
+1. The dataset used in this project was obtained from the [Malaria Cell Images Dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) on Kaggle.
+2. The ResNet50 model used in this project was pre-trained on the ImageNet dataset.
